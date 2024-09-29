@@ -1,0 +1,40 @@
+Name: Navigate to travel website URL
+Input: Origin-New York, Destination-London, Departure - '2023-12-01', Return - '2023-12-15', Dropdown count as 2, Click on Search button
+
+Name: waiting for process
+
+output: Count of flights, Display count
+
+Logic: Statements 1 to 10
+
+
+input: Generate randint(0 to count-1), Select flights[randint]
+output: Extract price, Display price
+input: Click select button
+
+Logic: statement 11 to 15
+
+Name: Navigate(appear) to passenger form
+Input: firstname - 'John', lastname - 'Doe', mailID - 'john.doe@example.com', phoneNumber - '1234567890', click continue button
+
+Logic: statement 16 to 21
+
+Name: Waiting for summary appear
+Output: Extract total price, extract origin, extract destination
+
+Logic: statement 22 to 25
+
+Name: Compare price with previous stored price
+Output: check price match and display
+Input: Compare summary origin, compare summary destination, find(select) availble seats
+
+Input: card number, name on card, Expiry date of card, CVV, click continue to booking
+
+Name: wait for conformation
+Output: Extract the confirmation number, display the extracted confirmation number
+
+Logic: statements 26 to 40
+
+
+
+---Lot of mistakes---
